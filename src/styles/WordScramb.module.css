@@ -1,0 +1,88 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.wordContainer {
+  background-color: aliceblue;
+  border: 1px solid #ccc;
+  width: 300px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+}
+
+.word {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.boxAnswer {
+  width: 300px;
+  background-color: aliceblue;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px #ccc;
+  padding: 20px;
+}
+
+.boxAnswer p {
+  font-size: 25px;
+}
+
+.boxAnswer input {
+  width: 250px;
+  height: 30px;
+  padding: 20px;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.boxAnswer button {
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  height: 45px;
+}
+
+.boxBtn {
+  display: flex;
+  justify-content: space-around;
+}
+
+.boxScore {
+  background-color: #3498db;
+  width: 350px;
+  height: 500px;
+  border-radius: 10px;
+  margin-top: 40px;
+  color : #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.boxScore p {
+  font-size: 60px;
+  text-align: center;
+}
+
+.boxScore .message {
+  margin-top: -20px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+  line-height: 1.5;
+}

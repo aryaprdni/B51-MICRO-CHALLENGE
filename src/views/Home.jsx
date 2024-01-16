@@ -6,12 +6,13 @@ const Home = () => {
         <div style={home}>
             <h1 style={title}>Challenge Task</h1>
             <p style={description}>Let's try one by one</p>
-            <ButtonComponent to='/count-duration' label='Count Duration' color='#3498db'/>
-            <ButtonComponent to='/currency-convert' label='Currency Convert' color='#2ecc71'/>
-            <ButtonComponent to='/matching-card' label='Matching Card' color='#e74c3c'/>
-            <ButtonComponent to='/mobile-legend' label='Mobile Legend' color='#f39c12'/>
-            <ButtonComponent to='/salary-calculating' label='Salary Calculating' color='#9b59b6'/>
-            <ButtonComponent to='/tictactoe' label='Tic Tac Toe' color='#27ae60'/>
+            <ButtonComponent to='/count-duration' label='Count Duration'/>
+            <ButtonComponent to='/currency-convert' label='Currency Convert'/>
+            <ButtonComponent to='/mobile-legend' label='Mobile Legend'/>
+            <ButtonComponent to='/tictactoe' label='Tic Tac Toe'/>
+            <ButtonComponent to='/matching-card' label='Matching Card'/>
+            <ButtonComponent to='/salary-calculating' label='Salary Calculating'/>
+            <ButtonComponent to='/word-scramb' label='Word Scramb'/>
         </div>
     );  
 }
@@ -33,7 +34,7 @@ const home = {
 
 const title = {
     color: '#2c3e50',
-    marginTop: '40px',
+    marginTop : '-15px'
 }
 
 const description = {

@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from 'react';
-import '../styles/SalaryCalculating.css';
+import styles from '../styles/SalaryCalculating.module.css';
 
 const SalaryCalculating = () => {
     const [currentBasicSalary, setCurrentBasicSalary] = useState(0);
@@ -32,10 +32,10 @@ const resetInputs = () => {
 };
 
 return (
-    <div className="container">
+    <div className={styles.container}>
         <h1>Salary Calculating</h1>
-        <div className="sub-container">
-            <div className = "box-1">
+        <div className={styles.subContainer}>
+            <div className = {styles.box1}>
                 <label>
                     <p>Basic Salary :</p>
                     <input
@@ -60,13 +60,13 @@ return (
                     onChange={(e) => setMonthlyExpenses(e.target.value === '0' ? 0 : parseInt(e.target.value, 10) || 0)}
                     />
                 </label>
-                <div className ="button-container">
-                    <button className="button" onClick={calculateSalary}>Count</button>
-                    <button className="button" onClick={resetInputs}>Reset</button>
+                <div className ={styles.buttonContainer}>
+                    <button className={styles.button} onClick={calculateSalary}>Count</button>
+                    <button className={styles.button} onClick={resetInputs}>Reset</button>
                 </div>
                 <br />
             </div> 
-            <div className ="box-2">
+            <div className={styles.box2}>
                 <h3>Results :</h3>
                 <p>Gross Salery: {grossSalary}</p>
                 <p>Basic Salary : {basicSalary}</p>
