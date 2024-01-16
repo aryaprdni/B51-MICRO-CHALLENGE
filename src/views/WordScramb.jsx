@@ -85,7 +85,7 @@ const WordScramble = () => {
   return (
     <div className={styles.container}>
       <div>
-        <h1>Word Scramble</h1>
+        <h1 className={styles.title}>Word Scramble</h1>
         <div className={styles.wordContainer}>
           <p className={styles.word}>
             Guess the word : <br />
