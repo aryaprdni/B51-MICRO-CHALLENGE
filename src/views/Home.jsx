@@ -11,7 +11,7 @@ const Home = () => {
             <ButtonComponent to='/matching-card' label='Matching Card' color='#e74c3c'/>
             <ButtonComponent to='/mobile-legend' label='Mobile Legend' color='#f39c12'/>
             <ButtonComponent to='/salary-calculating' label='Salary Calculating' color='#9b59b6'/>
-            <ButtonComponent to='/tic-tac-toe' label='Tic Tac Toe' color='#27ae60'/>
+            <ButtonComponent to='/tictactoe' label='Tic Tac Toe' color='#27ae60'/>
         </div>
     );  
 }
