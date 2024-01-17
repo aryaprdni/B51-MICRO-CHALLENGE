@@ -5,6 +5,7 @@ const CountDuration = () => {
     const [startDateTime, setStartDateTime] = useState('');
     const [counting, setCounting] = useState(false);
     const [remainingDuration, setRemainingDuration] = useState(null);
+    const [loading, setLoading] = useState(false);
 
     const handleDateTimeChange = (event) => {
         setStartDateTime(event.target.value);
@@ -16,7 +17,12 @@ const CountDuration = () => {
             return;
         }
 
-        setCounting(true);
+        setLoading(true);
+
+        setTimeout(() => {
+            setCounting(true);
+            setLoading(false);
+        }, 1000);
     };
 
     const handleReset = () => {
@@ -62,7 +68,9 @@ const CountDuration = () => {
                 <input type="datetime-local" value={startDateTime} onChange={handleDateTimeChange} />
             </label>
             <div className={styles.buttons}>
-                <button onClick={handleCount}>Count</button>
+                <button onClick={handleCount} disabled={loading}>
+                    {loading ? 'Counting...' : 'Count'}
+                </button>
                 <button onClick={handleReset}>Reset</button>
             </div>
             {remainingDuration !== null && (
