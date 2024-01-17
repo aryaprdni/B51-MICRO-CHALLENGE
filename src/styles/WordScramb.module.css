@@ -64,6 +64,11 @@
   justify-content: space-around;
 }
 
+.boxBtn button {
+  width: 100%;
+  font-size: 15px;
+}
+
 .boxScore {
   background-color: #3498db;
   width: 350px;
