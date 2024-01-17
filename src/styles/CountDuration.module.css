@@ -1,17 +1,29 @@
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
 .container {
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 20px;
+    border: 1px solid #ccc;
+    width: 30%;
+    margin: 0 auto;
     margin-top: 60px;
+    padding: 30px;
+    border: 5px solid rgb(169, 168, 168);
+    box-shadow: 1px 1px 15px rgb(169, 168, 168);
 }
 
 .container p {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .container input {
-    font-size: 30px;
+    font-size: 25px;
     margin: 10px 0;
+    width: 60%;
+
 }
 
 .buttons button {
