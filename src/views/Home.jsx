@@ -20,7 +20,7 @@ const Home = () => {
 export default Home;
 
 const home = {
-    backgroundImage: 'url("../public/img/img.jpg")',
+    backgroundImage: 'url("../public/images/img.jpg")',
     backgroundSize: '30%',
     backgroundPosition: 'left center',
     backgroundRepeat: 'no-repeat',
