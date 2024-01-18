@@ -4,14 +4,14 @@ import { Link } from "react-router-dom"
 const ButtonComponent = ({to, label}) => {
     return (
         <Link to={to}>
-            <button style={btn}>{label}</button>
+            <button style={btnComponent}>{label}</button>
         </Link>
     )
 }
 
 export default ButtonComponent
 
-const btn = {
+const btnComponent = {
     backgroundColor: '#3498db',
     color: '#fff',
     border: 'none',
