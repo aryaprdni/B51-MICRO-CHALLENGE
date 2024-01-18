@@ -1,0 +1,98 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    border: 1px solid #8e9091;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    background: linear-gradient(180deg, #f0f0f0, #d0d0d0);
+}
+
+
+
+.boxInput {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.boxInput input {
+    width: 500px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.btn {
+    margin: 10px;
+    font-size: 12px;
+    width: 100px;
+    height: 35px;
+    padding: 8px;
+    background-color: #6c6969;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.btn:hover {
+    background-color: #9b9797;
+}
+
+.heroContainer {
+    max-height: 600px;
+    overflow-y: auto;
+    margin-top: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.heroCard {
+    height: auto;
+    background-color: #6c6969;
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    margin: 10px 10px;
+}
+
+.heroCard h6 {
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.heroCard p {
+    font-size: 18px;
+    margin-top: 10px;
+}
